@@ -41,10 +41,8 @@ img {
 }
 
 .accordeon__item_input {
-    position: absolute;
     appearance: none;
-    width: 0;
-    height: 0;
+    display: none;
 }
 
 .accordeon__item_input:checked ~ .accordeon__item_title > .accordeon__item_img_block {
