@@ -132,4 +132,8 @@ img {
     .accordeon__item_title_icon {
         width: 1rem;
     }
+
+    .accordeon__item_input:checked ~ .accordeon__item_title > .accordeon__item_img_block {
+        height: 30vh;
+    }
 }
